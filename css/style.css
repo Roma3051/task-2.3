@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 69, 2);
+    justify-content: center;
+    padding: 60px;
+    gap: 20px;
+}
+
+.sort {
+    background-color: aliceblue;
+    border-color: blueviolet;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.sort:hover {
+    background-color: rgb(144, 88, 196);
+    color: antiquewhite;
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    font-size: 30px;
+    align-items: flex-end;
+    color: orangered;
+    font-weight: 600;
+    padding: 60px;
+}
+
+
+
+
